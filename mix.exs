@@ -5,7 +5,6 @@ defmodule MoreChunks.Mixfile do
     [
       app: :morechunks,
       version: "1.0.0",
-      elixir: "~> 1.4",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps()
