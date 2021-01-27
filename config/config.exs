@@ -2,7 +2,7 @@ use Mix.Config
 
 config :morechunks,
   max_chunks_per_second: 80,
-  listen_ip: {0, 0, 0, 0},
+  listen_ip: {172, 17, 0, 2},
   listen_port: 44444,
   allowed_versions: nil
 
